@@ -1,0 +1,208 @@
+@import url("https://fonts.googleapis.com/css2?family=League+Spartan:wght@100;200;300;400;500;600;700;800;900&family=Poppins:ital,wght@0,700;1,700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "League Spartan", sans-serif;
+}
+
+h1 {
+  font-size: 50px;
+  line-height: 64px;
+  color: #222;
+}
+
+h2 {
+  font-size: 46px;
+  line-height: 54px;
+  color: #222;
+}
+
+h4 {
+  font-size: 20px;
+  color: #222;
+}
+
+h6 {
+  font-weight: 700;
+  font-size: 12px;
+}
+
+p {
+  font-size: 16px;
+  color: #465b52;
+  margin: 15px 0 20px 0;
+}
+
+.section-p1 {
+  padding: 40px 80px;
+}
+
+.section-m1 {
+  margin: 40px 0;
+}
+
+body {
+  width: 100%;
+}
+
+/* Heeader Start */
+
+#header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 80px;
+  background: #fff;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+  z-index: 999;
+  position: sticky;
+  top: 0;
+  left: 0;
+}
+
+#header img {
+  width: 130px;
+  margin-top: -30px;
+  margin-bottom: -10px;
+}
+
+#navbar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#navbar li {
+  list-style: none;
+  padding: 0 20px;
+  position: relative;
+  margin-bottom: 3px;
+  margin-top: 10px;
+}
+
+#navbar li a {
+  text-decoration: none;
+  font-size: 17px;
+  font-weight: 600;
+  color: #1a1a1a;
+  transition: 0.3s ease;
+}
+
+#navbar li a:hover,
+#navbar li a.active {
+  color: #0783dc;
+}
+
+#navbar li a.active::after,
+#navbar li a:hover::after {
+  content: "";
+  width: 30%;
+  height: 2px;
+  background-color: #0783dc;
+  position: absolute;
+  bottom: -2px;
+  left: 20px;
+}
+
+/* Shop Page */
+#page-header {
+  background-color: #0783dc;
+  width: 100%;
+  height: 20vh;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  padding: 10px;
+}
+
+/* Profile */
+#page-header h2 {
+  color: white;
+  padding-top: 25px;
+}
+
+#page-header p {
+  color: white;
+  padding-bottom: 10px;
+  margin-top: 10px;
+}
+
+.main-settings {
+  position: relative;
+  margin: 50px 0px 0px 100px;
+  width: 85vw;
+  height: 100vh;
+  background-color: white;
+  overflow: hidden;
+}
+
+.user-title {
+  position: absolute;
+  margin: 40px 0px 0px 20px;
+}
+
+.user-title img {
+  width: 250px;
+  margin-left: 500px;
+}
+
+.user-title p {
+  font-size: 25px;
+  color: #000;
+}
+.user-title button {
+  width: 200px;
+  font-size: 20px;
+  margin-top: 30px;
+  margin-left: 500px;
+}
+
+.user-title .nama {
+  margin-top: 40px;
+  margin-left: 500px;
+}
+
+.user-title .email,
+.user-title .alamat,
+.user-title .no-telpon {
+  margin-top: 10px;
+  margin-left: 500px;
+}
+
+#form-details img {
+  width: 350px;
+  height: 200px;
+  margin-top: 30px;
+  margin-left: 600px;
+}
+
+#form-details form {
+  width: 50%;
+  display: inline-block;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 400px;
+  margin-top: 40px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+#form-details form input,
+#form-details form textarea {
+  width: 100%;
+  padding: 12px 15px;
+  outline: none;
+  margin-bottom: 20px;
+  border: 2px solid #c4c4c4;
+}
+
+#form-details form button {
+  width: 250px;
+  height: 45px;
+  font-size: 18px;
+  border: none;
+}
