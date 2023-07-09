@@ -43,7 +43,7 @@ if (isset($_POST["update"])) {
 
 <body>
     <section id="header">
-        <a href="#"><img src="../img/logo-2.png" class="logo" alt="" /></a>
+        <a href="#"></a>
 
         <div>
             <ul id="navbar">
