@@ -22,7 +22,7 @@ session_start();
 <body>
     <section class="header">
         <nav>
-            <a href="index.php"><img class="logo" src="img/logo_bako.png" /></a>
+            <a href="index.php"></a>
             <div class="nav-links" id="navLinks">
                 <i class="fa fa-window-close" onclick="hideMenu()"></i>
                 <ul>
@@ -39,7 +39,7 @@ session_start();
         <div class="text-box">
             <h1>E-Bacco</h1>
             <p>
-                E - Bako ini adalah aplikasi jual beli yang menjual khusus bahan bahan sembako.
+                E - Bacco ini adalah aplikasi jual beli yang menjual khusus bahan bahan sembako.
                 <br> Aplikasi ini dapat membantu masyarakat dan toko kelontong dalam membeli sembako, serta
                 mempermudah penjual sembako dalam memantau penjualan barang,
             </p>
@@ -50,7 +50,7 @@ session_start();
     <!--------landing page------->
 
     <section class="course">
-        <h1>Fitur Utama E-Bako<h1>
+        <h1>Fitur Utama E-Bacco<h1>
                 <p>Berikut adalah fitur - fitur utama yang ada di website E-Bako ini</p>
 
                 <div class="row">
@@ -87,8 +87,8 @@ session_start();
     <!------ campus ----->
 
     <section class="campus">
-        <h1>Gambaran 3 fitur utama website E-Bako</h1>
-        <p>Di bawah ini adalah 3 fitur utama dari website E-Bako ini</p>
+        <h1>Gambaran 3 fitur utama website E-Bacco</h1>
+        <p>Di bawah ini adalah 3 fitur utama dari website E-Bacco ini</p>
 
         <div class="row">
             <div class="campus-col">
@@ -119,7 +119,7 @@ session_start();
     <!----- testimoni pelanggan E-Bako ------->
 
     <section class="testimoni">
-        <h1>Apa kata para Pengguna E-Bako</h1>
+        <h1>Apa kata para Pengguna E-Bacco</h1>
         <p>Berikut adalah testimoni dari pengguna website E-Bako</p>
 
         <div class="row">
@@ -129,7 +129,7 @@ session_start();
                     <p>
                         Website E-Bako ini sangat membantu saya dalam melakukan pencatatan keuagan UKM saya.
                         Dulu saya sangat bingung sekali bagaimana melakukan pencatatan keuangan UKM saya,
-                        tetapi setelah saya mengenal E-Bako saya menjadi lebih mudah dalam melakukan pencatatan keuangan
+                        tetapi setelah saya mengenal E-Bacco saya menjadi lebih mudah dalam melakukan pencatatan keuangan
                         UKM saya.
                     </p>
                     <h3>Jaya Hartono</h3>

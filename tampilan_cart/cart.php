@@ -45,7 +45,7 @@ $subtotal = mysqli_query($konn, "SELECT cart.id, user.username, SUM(barang.harga
 
 <body>
     <section id="header">
-        <a href="../setelah_login/shop.php"><img src="../img/logo-2.png" class="logo" alt="" /></a>
+        <a href="../setelah_login/shop.php"></a>
 
         <div>
             <ul id="navbar">

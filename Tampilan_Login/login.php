@@ -188,8 +188,7 @@ if($type === 'ukm') {
             <div class="panel left-panel">
                 <div class="content">
                     <h3>Baru Dengan Kami?</h3>
-                    <p>Mari Daftar ke PENKU untuk bisa menggunakan berbagai fitur dalam mengatur keuangan dan pencatat
-                        keuangan
+                    <p>Mari Daftar ke E-Bacco untuk bisa membeli barang sembako tanpa harus keluar rumah
                     </p>
                     <button class="btn transparent" id="sign-up-btn">Daftar</button>
                 </div>
@@ -200,8 +199,7 @@ if($type === 'ukm') {
             <div class="panel right-panel">
                 <div class="content">
                     <h3>Mari Bergabung Dengan Kami</h3>
-                    <p> Penku atau Pengatur Keuangan, adalah aplikasi berbasis website untuk melakukan pencatatan
-                        keuangan bagi pelaku ukm di Yogyakarta agar memudahkan dalam menunjang usaha kedepannya.
+                    <p> E-Bacco adalah aplikasi untuk membeli barang sembako tanpa harus keluar rumah 
                     </p>
                     <button class="btn transparent" id="sign-in-btn">Login</button>
                 </div>

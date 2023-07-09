@@ -20,7 +20,7 @@ $item = mysqli_fetch_assoc($res);
 
 <body>
     <section id="header">
-        <a href="shop.php"><img src="../img/logo-2.png" class="logo" alt="" /></a>
+        <a href="shop.php"></a>
 
         <div>
             <ul id="navbar">

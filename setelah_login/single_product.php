@@ -46,7 +46,7 @@ session_start();
 
 <body>
     <section id="header">
-        <a href="shop.php"><img src="../img/logo-2.png" class="" alt="" /></a>
+        <a href="shop.php"></a>
 
         <div>
             <ul id="navbar">

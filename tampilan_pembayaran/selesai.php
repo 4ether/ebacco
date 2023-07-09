@@ -13,7 +13,7 @@
 
 <body>
     <section id="header">
-        <a href="../setelah_login/shop.php"><img src="../img/logo-2.png" class="logo" alt="" /></a>
+        <a href="../setelah_login/shop.php"></a>
 
         <div>
             <ul id="navbar">
@@ -35,7 +35,7 @@
 
     <section id="end">
         <div>
-            <img src="../img/logo-2.png" alt="">
+         
             <h2>Terimakasih sudah berbelanja !</h2>
         </div>
     </section>
